@@ -45,4 +45,21 @@ footer {
     width: 100%;
     margin-top: 5%;
 }
+#backToTop {
+    position: fixed;
+    bottom: 12%;
+    right: 2.5%;
+    /* background: #222; */
+    background: rgb(3, 3, 52);
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    display: none;
+    border-radius: 7px;
+}
+
+#backToTop:hover {
+    background: #555;
+}
 
